@@ -45,4 +45,12 @@ const startServer = async () => {
   }
 };
 
-startServer();
+// For Vercel serverless deployment
+if (process.env.VERCEL) {
+  const { initializeFirebase } = require('./config/firebase');
+  initializeFirebase();
+  module.exports = app;
+} else {
+  // For local development
+  startServer();
+}

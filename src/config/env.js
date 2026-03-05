@@ -1,14 +1,5 @@
 require('dotenv').config();
 
-// Try to load firebase-functions for Cloud Functions environment
-let functions;
-try {
-  functions = require('firebase-functions');
-} catch (e) {
-  // Not in Cloud Functions environment
-  functions = null;
-}
-
 const config = {
   port: process.env.PORT || 5000,
   nodeEnv: process.env.NODE_ENV || 'development',
@@ -19,18 +10,13 @@ const config = {
     privateKey: process.env.FIREBASE_PRIVATE_KEY,
   },
   
-  mlServiceUrl: process.env.ML_SERVICE_URL || 
-                (functions?.config().ml?.service_url) || 
-                'http://localhost:8000',
+  mlServiceUrl: process.env.ML_SERVICE_URL || 'http://localhost:8000',
   
-  jwtSecret: process.env.JWT_SECRET || 
-             (functions?.config().jwt?.secret) || 
-             'default-secret-change-in-production',
+  jwtSecret: process.env.JWT_SECRET || 'default-secret-change-in-production',
   
   allowedOrigins: process.env.ALLOWED_ORIGINS 
-    ? process.env.ALLOWED_ORIGINS.split(',')
-    : (functions?.config().cors?.origins?.split(','))
-    || ['http://localhost:5173', 'http://localhost:8081'],
+    ? process.env.ALLOWED_ORIGINS.split(',') 
+    : ['http://localhost:5173', 'http://localhost:8081'],
 };
 
 const validateConfig = () => {
