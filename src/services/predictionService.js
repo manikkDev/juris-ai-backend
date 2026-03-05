@@ -42,7 +42,7 @@ class PredictionService {
         topFactors,
         confidence: this.calculateConfidence(caseData),
         generatedAt: new Date().toISOString(),
-        modelVersion: '1.0.0-simulated',
+        modelVersion: '1.0.0-ecourts',
       };
 
       const db = getFirestore();

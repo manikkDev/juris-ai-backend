@@ -1,0 +1,72 @@
+[
+  {
+    "caseNumber": "WP(C)/2020/004532",
+    "adjournmentRisk": 0.82,
+    "delayProbability": 0.76,
+    "resolutionEstimate": "18-24 months",
+    "confidence": 0.90,
+    "modelVersion": "1.0.0-ecourts",
+    "topFactors": [
+      {
+        "factor": "High Adjournment Count",
+        "impact": "Critical",
+        "value": 14
+      },
+      {
+        "factor": "Case Age",
+        "impact": "Critical",
+        "value": "59 months"
+      },
+      {
+        "factor": "Pending Status",
+        "impact": "Medium",
+        "value": "Pending"
+      }
+    ]
+  },
+  {
+    "caseNumber": "CRA/2021/001247",
+    "adjournmentRisk": 0.68,
+    "delayProbability": 0.61,
+    "resolutionEstimate": "12-18 months",
+    "confidence": 0.85,
+    "modelVersion": "1.0.0-ecourts",
+    "topFactors": [
+      {
+        "factor": "Moderate Adjournment Count",
+        "impact": "High",
+        "value": 5
+      },
+      {
+        "factor": "Criminal Case Priority",
+        "impact": "High",
+        "value": "Criminal Appeal"
+      },
+      {
+        "factor": "Case Age",
+        "impact": "High",
+        "value": "45 months"
+      }
+    ]
+  },
+  {
+    "caseNumber": "CS(OS)/2023/001876",
+    "adjournmentRisk": 0.35,
+    "delayProbability": 0.28,
+    "resolutionEstimate": "3-6 months",
+    "confidence": 0.82,
+    "modelVersion": "1.0.0-ecourts",
+    "topFactors": [
+      {
+        "factor": "Case Age",
+        "impact": "Medium",
+        "value": "18 months"
+      },
+      {
+        "factor": "Pending Status",
+        "impact": "Medium",
+        "value": "Pending"
+      }
+    ]
+  }
+]
