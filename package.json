@@ -1,0 +1,35 @@
+{
+  "name": "juris-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend service for Juris AI - AI-powered judicial case intelligence system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node scripts/seedDatabase.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "juris-ai",
+    "judicial",
+    "ai",
+    "case-management",
+    "backend"
+  ],
+  "author": "Juris AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "firebase-admin": "^12.0.0",
+    "uuid": "^9.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

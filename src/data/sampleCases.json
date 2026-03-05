@@ -1,0 +1,102 @@
+[
+  {
+    "court": "Supreme Court",
+    "judge": "Justice Sharma",
+    "caseType": "Constitutional",
+    "filedDate": "2022-03-15",
+    "lastHearingDate": "2025-01-10",
+    "adjournments": 8,
+    "status": "Pending",
+    "description": "Constitutional validity of new legislation"
+  },
+  {
+    "court": "High Court Delhi",
+    "judge": "Justice Verma",
+    "caseType": "Civil",
+    "filedDate": "2023-06-20",
+    "lastHearingDate": "2025-02-15",
+    "adjournments": 4,
+    "status": "Pending",
+    "description": "Property dispute case"
+  },
+  {
+    "court": "District Court Mumbai",
+    "judge": "Justice Patel",
+    "caseType": "Criminal",
+    "filedDate": "2024-01-10",
+    "lastHearingDate": "2025-02-28",
+    "adjournments": 2,
+    "status": "Pending",
+    "description": "Theft and fraud case"
+  },
+  {
+    "court": "High Court Mumbai",
+    "judge": "Justice Desai",
+    "caseType": "Civil",
+    "filedDate": "2021-11-05",
+    "lastHearingDate": "2024-12-20",
+    "adjournments": 12,
+    "status": "Pending",
+    "description": "Contract breach dispute"
+  },
+  {
+    "court": "Supreme Court",
+    "judge": "Justice Kumar",
+    "caseType": "Criminal",
+    "filedDate": "2023-08-22",
+    "lastHearingDate": "2025-01-25",
+    "adjournments": 5,
+    "status": "Pending",
+    "description": "Corruption case appeal"
+  },
+  {
+    "court": "District Court Delhi",
+    "judge": "Justice Singh",
+    "caseType": "Family",
+    "filedDate": "2024-05-12",
+    "lastHearingDate": "2025-02-10",
+    "adjournments": 1,
+    "status": "Pending",
+    "description": "Divorce proceedings"
+  },
+  {
+    "court": "High Court Bangalore",
+    "judge": "Justice Rao",
+    "caseType": "Commercial",
+    "filedDate": "2022-09-30",
+    "lastHearingDate": "2025-01-18",
+    "adjournments": 7,
+    "status": "Pending",
+    "description": "Corporate merger dispute"
+  },
+  {
+    "court": "District Court Chennai",
+    "judge": "Justice Iyer",
+    "caseType": "Civil",
+    "filedDate": "2024-02-14",
+    "lastHearingDate": "2025-02-20",
+    "adjournments": 3,
+    "status": "Pending",
+    "description": "Land acquisition case"
+  },
+  {
+    "court": "High Court Kolkata",
+    "judge": "Justice Banerjee",
+    "caseType": "Criminal",
+    "filedDate": "2023-04-08",
+    "lastHearingDate": "2025-01-30",
+    "adjournments": 6,
+    "status": "Pending",
+    "description": "Murder trial"
+  },
+  {
+    "court": "Supreme Court",
+    "judge": "Justice Mehta",
+    "caseType": "Constitutional",
+    "filedDate": "2022-12-01",
+    "lastHearingDate": "2025-02-05",
+    "adjournments": 9,
+    "status": "Pending",
+    "description": "Fundamental rights violation"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "adjournmentRisk": 0.85,
+    "delayProbability": 0.78,
+    "resolutionEstimate": "12-18 months",
+    "topFactors": [
+      {
+        "factor": "High Adjournment Count",
+        "impact": "High",
+        "value": 8
+      },
+      {
+        "factor": "Case Age",
+        "impact": "Critical",
+        "value": "35 months"
+      },
+      {
+        "factor": "Pending Status",
+        "impact": "Medium",
+        "value": "Pending"
+      }
+    ]
+  },
+  {
+    "adjournmentRisk": 0.62,
+    "delayProbability": 0.55,
+    "resolutionEstimate": "6-12 months",
+    "topFactors": [
+      {
+        "factor": "Moderate Adjournment Count",
+        "impact": "Medium",
+        "value": 4
+      },
+      {
+        "factor": "Case Age",
+        "impact": "High",
+        "value": "20 months"
+      }
+    ]
+  },
+  {
+    "adjournmentRisk": 0.42,
+    "delayProbability": 0.38,
+    "resolutionEstimate": "3-6 months",
+    "topFactors": [
+      {
+        "factor": "Low Adjournment Count",
+        "impact": "Low",
+        "value": 2
+      },
+      {
+        "factor": "Case Type Priority",
+        "impact": "Medium",
+        "value": "Criminal"
+      }
+    ]
+  }
+]
